@@ -24,3 +24,16 @@ It is possible to work on a single budget with multiple accounts because it is p
 Apart from that, there will be several possibilities to make your budgeting more easy, for examle take over the values from the previous month, notifications about events, statistics and so on but the core value should be the budgeting method.
 
 ## Technology
+
+### Backend
+- Spring Boot
+- JDBC via Spring Data JPA
+- Spring Security
+- Relational database
+- REST
+
+### Frontend
+- Angular
+
+## Architecture
+The architecture is based on a classical n-tier design, separated by domains. A Split up into separate services does not make sense and would increase the complexity of maintanance.
