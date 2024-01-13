@@ -12,7 +12,7 @@ import { ApplicationHeaderComponent } from './application-header/application-hea
   styleUrl: './app.component.sass'
 })
 export class AppComponent {
-  title = 'homes';
+  title = 'Financeplanner';
   showFiller = true;
   opened = true;
 }
