@@ -29,5 +29,5 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - run: npm ci
-      - run: npm run test:prod
       - run: npm run lint
+      - run: npm run test -- --browsers=Headless_Chrome --no-watch
